@@ -83,11 +83,15 @@ public class Main {
         System.out.println("Number of students with a red lunchbox: " +
                 judy.numOfStudentsWithCertainColorLunchbox("red")  );
 
+        System.out.println("\nStudents with a yellow lunchbox: ");
         judy.studentsWithCertainColorLunchbox("yellow");
+
+        System.out.println("\nStudents with a red lunchbox: ");
+        judy.studentsWithCertainColorLunchbox("red");
 
         System.out.println("Ray's teacher is: " + judy.whoIsThisStudentsTeacher("ray"));
 
-        System.out.println("Teachers that have students with less than 3 pencils in their pocket:");
+        System.out.println("\nTeachers that have students with less than 3 pencils in their pocket:");
         judy.teachersThatHaveStudentsWithLessThanACertainNumberOfPencils(3);
 
 
